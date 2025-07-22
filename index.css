@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(90deg, #3533cd, #000000);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.withe-Text {
+    color: white;
+}
+
+span {
+    font-weight: bold;
+    color: khaki;
+}
+
+a {
+    color: #c5a40e;
+    text-decoration: underline;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #c5a40e;
+}
+
+
+img {
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.titolo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.titolo p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.emailScuola {
+    color: #c5a40e;
+    text-decoration: underline;
+}
